@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<link rel="icon" href="/img/weather.png">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	
+
+</head>
+  <title>{{title}}</title>
+<body>
+     <div>
+         {{>header}}
+         <p>Use this Web App to get Weather in your location.</p>
+
+          <form>
+           <input placeholder='Enter Location'>
+           <button>Search</button>
+          </form>
+          <div class='data'>
+          <p id='message-1'></p>
+          <p id='message-2'></p>
+          <p id='message-3'></p>
+          </div>
+     </div>
+    <script type="text/javascript" src="/js/client.js"></script>
+         {{>footer}}
+
+</body>
+
+</html>
